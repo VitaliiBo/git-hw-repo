@@ -1,7 +1,7 @@
 #!/bin/bash
 free -h
 df -h
-cat /proc/loadavg
+cat /proc/meminfo
 la -la
 chmod +x tesh.sh
 
